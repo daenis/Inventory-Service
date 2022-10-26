@@ -25,3 +25,4 @@ TABLESPACE pg_default;
 ALTER TABLE IF EXISTS public.auto_parts OWNER to postgres;
 
 INSERT INTO auto_part_types (id, name) VALUES (1, 'Engine');
+INSERT INTO auto_parts (id, auto_part_type_id) VALUES (1, 1);
